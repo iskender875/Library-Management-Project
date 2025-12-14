@@ -1,54 +1,16 @@
-# Library-Management-Project
-📚 Library Management System
+# React + Vite
 
-This Library Management System is a web-based application designed to manage books and library records efficiently. The project provides a clean and responsive user interface for adding, viewing, editing, and deleting book information, making it suitable for small libraries, academic projects, and learning purposes.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-The system focuses on simplicity, usability, and maintainable code structure. It demonstrates practical implementation of modern frontend development concepts and is ideal for beginners who want to understand CRUD operations and component-based architecture.
+Currently, two official plugins are available:
 
-🚀 Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Add new books with title, author, publication year, and cover image
+## React Compiler
 
-View book list in a clean and responsive layout
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Edit existing book details
+## Expanding the ESLint configuration
 
-Delete books from the collection
-
-Responsive UI for desktop and mobile devices
-
-🛠️ Technologies Used
-
-React (Vite)
-
-JavaScript (ES6+)
-
-HTML5
-
-CSS3
-
-Tailwind CSS / Custom CSS (if applicable)
-
-🎯 Purpose of the Project
-
-This project was developed as a learning-oriented application to practice:
-
-React component structure
-
-State management
-
-Basic CRUD operations
-
-Responsive UI/UX design
-
-GitHub project organization
-
-📌 Future Improvements
-
-Search and filter functionality
-
-Book categories and availability status
-
-User authentication (Admin/User roles)
-
-Backend integration with a database
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
