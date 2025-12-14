@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* কাস্টম বেস স্টাইল */
+body {
+  @apply bg-gray-50 text-gray-800;
+}
